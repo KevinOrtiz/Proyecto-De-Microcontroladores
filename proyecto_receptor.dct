@@ -413,9 +413,6 @@ cm2con0
 cm2con1
 comfrem
 compare_double
-cont_distancia
-conversion_adc
-conversion_temperatura
 cos
 cose3
 cosh
@@ -579,6 +576,7 @@ go_not_done_bit
 halfbits
 hts
 hts_bit
+i
 i2c_data
 i2c_data_bit
 i2c_read
@@ -597,7 +595,6 @@ i2c1_wr
 ics_auto
 ics_off
 indf
-init
 int2double
 intcon
 inte
@@ -647,10 +644,6 @@ isxdigit
 keypad_init
 keypad_key_click
 keypad_key_press
-keypadport
-kp
-kp2
-kp3
 labs
 lcd_chr
 lcd_chr_cp
@@ -1073,7 +1066,6 @@ sen
 sen_bit
 sendb
 sendb_bit
-set_distance
 setfdz32
 setfov32
 setfun32
@@ -1450,7 +1442,6 @@ tp_init
 tp_press_detect
 tp_set_adc_threshold
 tp_set_calibration_consts
-transmision
 trisa
 trisa0
 trisa0_bit
@@ -1556,8 +1547,6 @@ txif
 txif_bit
 txreg
 txsta
-txt_distancia
-txt_temperatura
 ua
 ua_bit
 uart1_data_ready

@@ -11,6 +11,26 @@ main
 			Delay_50us
 		UART1_Init
 		ADC_Init
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	Lcd_Out
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Chr_CP
+			Lcd_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us
+	strlen
+	memset
+	Keypad_Key_Click
+		Keypad_Key_Press
+			Delay_1us
+		Delay_10us
 	ADC_Read
 		Delay_22us
 	Mul_16X16_U
@@ -27,16 +47,6 @@ main
 			SETFOV32
 			SETFUN32
 		Div_8X8_U
-	Lcd_Out
-		Lcd_Cmd
-			Delay_1us
-			Delay_5500us
-			Delay_50us
-		Lcd_Chr_CP
-			Lcd_Cmd
-				Delay_1us
-				Delay_5500us
-				Delay_50us
 	Compare_Double
 	Sound_Init
 	Sound_Play
@@ -45,7 +55,12 @@ main
 		Div_32x32_U
 		Div_16X16_U
 		Delay_Cyc
-	Lcd_Cmd
-		Delay_1us
-		Delay_5500us
-		Delay_50us
+	set_distance
+	Lcd_Chr
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+	transmision
+		strlen
+		UART1_Write
